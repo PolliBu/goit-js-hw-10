@@ -39,7 +39,7 @@ function selectCat(data) {
 
 
 function createMarkup(url, name, description, temperament) {
-  return `<img class = "cat_img" src="${url}" alt="${name}" width = "300" height="content"/>
+  return `<img class = "cat_img" src="${url}" alt="${name}" width = "300" />
       <div class = "all_description">
       <h2>${name}</h2>
       <p>${description}</p>
